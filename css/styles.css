@@ -14,6 +14,10 @@ body {
     font-size: 14px;
     color: var(--primary-text-color);
 }
+body a{
+    text-decoration: none;
+}
+
 /* СТИЛИ ДЛЯ СТРАНИЦЫ СТУДИЯ */
 
 li{
@@ -22,13 +26,16 @@ li{
 
 /* Логотип WebStudio */
 .logo{
-    color: var(--acent-color);
+    color:var(--primary-text-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+/* .logo. color{
+color:var(--acent-color);
+} */
 /* Навигационные ссылки в верхней линии */
 
 .nav{
@@ -149,6 +156,10 @@ address {
 }
 .footer {
     background-color: #2F303A;
+}
+
+.footer .logo{
+    color: #FFFFFF;
 }
 
 .footer .title-white {
