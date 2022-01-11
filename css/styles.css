@@ -1,0 +1,165 @@
+/* Основной цвет текста #212121 */
+/* Вторичный цвет текста #757575 */
+/* Цвет активной кнопки #2196F3 */
+/* Цвет НЕ активной кнопки #F5F4FA */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --acent-color: #2196F3;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--primary-text-color);
+}
+/* СТИЛИ ДЛЯ СТРАНИЦЫ СТУДИЯ */
+
+li{
+    list-style: none;
+}
+
+/* Логотип WebStudio */
+.logo{
+    color: var(--acent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+/* Навигационные ссылки в верхней линии */
+
+.nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav :hover,
+.nav :focus {
+    color:var(--acent-color);
+}
+
+.color-black a {
+    color: var(--primary-text-color);
+}
+
+.color-grey a{
+    color: var(--title-text-color);
+}
+
+.color-active a{
+    color: var(--acent-color);
+}
+
+/* Заголовок Н1 Эффективные решения для вашего бизнеса*/
+h1{
+    background-color: #2F303A;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;   
+}
+button{
+    background-color: var(--acent-color);
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+/* Секция наши особенности */
+.section{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.section .title-black{
+    font-weight: 700;
+    line-height: 1.14;
+    color:var(--primary-text-color);
+}
+.section .title-grey{
+    line-height: 1.71;
+    color: var(--title-text-color);
+}
+
+/* Секция Наши проекты */
+.projects .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+}
+
+/* Секция Наша команда */
+.team{
+    letter-spacing: 0.03em;
+}
+
+.team .title{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.team .title-size{
+    line-height: 1.19;
+    font-size: 16px;
+}
+.team .title-black{
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.team .title-grey{
+    color:var(--title-text-color)
+}
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
+
+    .feature-list .title-black {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color:var(--primary-text-color);
+    }
+    
+    .feature-list .title-grey {
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+    }
+
+/* Навигационные ссылки в футере */
+address {
+    font-style: normal;
+}
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .title-white {
+    color: #FFFFFF;
+}
+
+.footer .title-rgba {  
+    color:var(--title-text-color);
+}
+ 
+.footer :hover,
+.footer :focus {
+    color: var(--acent-color);
+}
