@@ -83,7 +83,7 @@ h1{
    
     width: 200px;
     height: 50px;
-    
+
      /* position: absolute; */
     /* left: 700px; */
     /* top: 430px; */
@@ -174,7 +174,11 @@ h1{
         color: var(--title-text-color);
     }
 /* Стили кнопок на странице Портфолио */
-
+   .active {
+        background-color: var(--acent-color);
+        color: #FFFFFF;
+    }
+    
         .color button {
             font-family: Roboto, sans-serif;
             font-weight: 500;
