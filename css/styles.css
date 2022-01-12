@@ -174,11 +174,11 @@ h1{
         color: var(--title-text-color);
     }
 /* Стили кнопок на странице Портфолио */
-   .active {
+   .color .active {
         background-color: var(--acent-color);
         color: #FFFFFF;
     }
-    
+
         .color button {
             font-family: Roboto, sans-serif;
             font-weight: 500;
