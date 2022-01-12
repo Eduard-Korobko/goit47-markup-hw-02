@@ -62,10 +62,16 @@ color:var(--acent-color);
     color: var(--acent-color);
 }
 
-/* Заголовок Н1 Эффективные решения для вашего бизнеса*/
-h1{
+/* Секция 1 Заголовок Н1 Эффективные решения для вашего бизнеса*/
+section.one{
+    /* position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px; */
     background-color: #2F303A;
-
+}
+h1{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -73,30 +79,48 @@ h1{
     letter-spacing: 0.06em;
     color: #FFFFFF;   
 }
-button{
-    background-color: var(--acent-color);
-    font-family:inherit;
+.one button{
+   
+    width: 200px;
+    height: 50px;
+    
+     /* position: absolute; */
+    /* left: 700px; */
+    /* top: 430px; */
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 
+    background-color: var(--acent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
     cursor: pointer;
 }
-/* Секция наши особенности */
+
+.one button:hover,
+.one button:focus {
+    background-color:#188CE8;
+  
+}
+/* Секция 2 Наши особенности */
 .section{
     font-size: 14px;
     letter-spacing: 0.03em;
+    color:var(--primary-text-color);
 }
 .section .title-black{
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
-    color:var(--primary-text-color);
+    text-transform: uppercase;
 }
 .section .title-grey{
     line-height: 1.71;
-    color: var(--title-text-color);
+    color:var(--title-text-color);
 }
 
 /* Секция Наши проекты */
@@ -111,9 +135,9 @@ button{
 
 /* Секция Наша команда */
 .team{
+    background-color: #F5F4FA;
     letter-spacing: 0.03em;
 }
-
 .team .title{
     font-weight: 700;
     font-size: 36px;
@@ -125,10 +149,10 @@ button{
     font-size: 16px;
 }
 .team .title-black{
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     color: var(--primary-text-color);
 }
-
 .team .title-grey{
     color:var(--title-text-color)
 }
@@ -149,6 +173,29 @@ button{
         letter-spacing: 0.03em;
         color: var(--title-text-color);
     }
+/* Стили кнопок на странице Портфолио */
+
+        .color button {
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            background-color: #F5F4FA;
+            color:var(--primary-text-color);
+            letter-spacing: 0.03em;
+
+            border-radius: 4px;
+    }
+    
+    .color button:hover,
+    .color button:focus {
+        background-color:var(--acent-color);
+        color:#FFFFFF;
+
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        
+    }
+
 
 /* Навигационные ссылки в футере */
 address {
@@ -157,19 +204,15 @@ address {
 .footer {
     background-color: #2F303A;
 }
-
 .footer .logo{
     color: #FFFFFF;
 }
-
 .footer .title-white {
     color: #FFFFFF;
 }
-
 .footer .title-rgba {  
     color: rgba(255, 255, 255, 0.6);
 }
- 
 .footer :hover,
 .footer :focus {
     color: var(--acent-color);
